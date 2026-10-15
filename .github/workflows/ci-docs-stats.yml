@@ -7,9 +7,6 @@
 name: Refresh Docs Stats
 
 on:
-  schedule:
-    # 05:00 UTC on the first day of each month
-    - cron: "0 5 1 * *"
   workflow_dispatch:
 
 permissions:
